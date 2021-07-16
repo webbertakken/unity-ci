@@ -196,6 +196,15 @@ How it works:
 
 No configuration required.
 
+##### Tag
+
+Generates the version based on the latest git tag. For example `0.17.2` will
+generate the version `0.17.2`. A leading "v" is stripped, so a version of
+`v1.3.3` will generate a version of `1.3.3`.
+
+> Compatible with **all platforms**.
+> Does **not** modify your repository.
+
 ##### Custom
 
 Allows specifying a custom version in the `version` field. **(advanced users)**
